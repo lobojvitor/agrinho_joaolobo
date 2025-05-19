@@ -1,60 +1,54 @@
-/* Estilização para o cabeçalho (header) */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+
 header {
-    background-color: #f0f0f0;
-    padding: 10px;
-    text-align: center;
-    margin: 0%;
-    }
-    
-    /* Estilização para a navegação (nav) dentro do cabeçalho */
-    nav {
-    display: flex;
-    justify-content: center;
-    }
-    
-    nav a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #333;
-    }
-    
-    /* Estilização para o body (cor de fundo ) */
-    body {
-    background-color: rgb(25, 177, 114);
-    }
-    
-    /* Estilização para o corpo principal (main) */
-    main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    }
-    
-    /* Estilização para o parágrafo (p) dentro do corpo */
-    p {
-    line-height: 1.6;
-    flex: 1;
-    font-size: 18px;
-    color: #fff;
-    padding-right: 10px;
-    }
-    
-    /* Estilização para a imagem (img) alinhada à esquerda */
-    .imagem {
-    width: 700px;
-    height: auto;
-    }
-    
-    /* Estilização para o rodapé (footer) */
-    .rodape {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: fixed; /* ou position: absolute; */
-    bottom: 0; /* ou outra posição desejada */
-    left: 0;
-    right: 0;
-    }
+  background-color: #f0f0f0;
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header h1 {
+  display: inline-block;
+  margin: 0;
+  font-size: 24px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+main {
+  padding: 40px 0;
+}
+
+main p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
