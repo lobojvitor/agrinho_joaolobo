@@ -44,10 +44,6 @@ nav ul li a {
   font-weight: bold;
 }
 
-main {
-  padding: 40px 0;
-}
-
 .content {
   display: flex;
   gap: 40px;
