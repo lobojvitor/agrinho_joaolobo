@@ -8,7 +8,7 @@ body {
 header {
   background-color: #f0f0f0;
   padding: 20px 0;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .container {
@@ -46,7 +46,7 @@ nav ul li a {
 
 .content {
   display: flex;
-  gap: 40px;
+  gap: 20px;  /* Ajustado para ter um pequeno espaço entre texto e imagem */
   align-items: flex-start;
   flex-wrap: wrap;
 }
@@ -55,15 +55,25 @@ nav ul li a {
   flex: 1 1 60%;
 }
 
-.image img {
-  max-width: 200px;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+.image {
+  flex: 1 1 40%;  /* A imagem ocupará até 40% da largura */
+  max-width: 500px; /* Ajustando o tamanho máximo da imagem */
 }
 
+.image img {
+  width: 100%;  /* Faz com que a imagem ocupe toda a largura disponível */
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
 
-.content {
-  display: flex;
-  align-items: flex-start; 
-  gap: 5px; 
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;  /* Em telas menores, a imagem e o texto vão para baixo */
+    gap: 20px;  /* Um pequeno espaço entre os elementos */
+  }
+
+  .text, .image {
+    flex: 1 1 100%;  /* Cada um vai ocupar 100% da largura */
+  }
+}
