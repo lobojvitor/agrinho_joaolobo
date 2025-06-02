@@ -49,7 +49,7 @@ nav ul li a {
   display: flex;
   gap: 40px;
   align-items: flex-start;
-  width: 90%;
+  width: 80%;
   max-width: 1200px; /* Limita a largura máxima do conteúdo */
   margin: 20px auto; /* Centraliza o conteúdo */
 }
