@@ -13,7 +13,6 @@ header {
 
 .container {
   width: 90%;
-  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -44,19 +43,6 @@ nav ul li a {
   font-weight: bold;
 }
 
-.content {
-  display: flex;
-  gap: 40px;
-  align-items: flex-start;
-  flex-wrap: wrap;
-}
-
 .text {
   flex: 1 1 60%;
-}
-
-.image img {
-  27width: 100%;
-  height: auto;
-  border-radius: 8px;
 }
