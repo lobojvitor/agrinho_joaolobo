@@ -48,15 +48,15 @@ nav ul li a {
   display: flex;
   gap: 40px;
   align-items: flex-start;
-  flex-wrap: wrap;  /* O valor `wrap` permite que o conteúdo se reorganize em telas menores */
+  flex-wrap: wrap;
 }
 
 .text {
-  flex: 1 1 60%;  /* Texto ocupa 60% da largura */
+  flex: 1 1 60%;
 }
 
 .image img {
-  max-width: 200px;
+  max-width: 400px;  /* Aumentei o tamanho da imagem */
   height: auto;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
