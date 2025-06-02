@@ -75,14 +75,3 @@ nav ul li a {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Responsividade - Layout para telas menores */
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column; /* Empilha os elementos verticalmente */
-    gap: 20px;
-  }
-
-  .text, .image {
-    flex: 1 1 100%; /* Ambos ocupam 100% da largura em telas pequenas */
-  }
-}
