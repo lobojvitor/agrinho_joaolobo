@@ -23,6 +23,9 @@ header .container {
   display: flex;
   justify-content: space-between; /* Para garantir que o título e a navegação fiquem distantes */
   align-items: center;
+  width: 90%;
+  max-width: 1200px; /* Limita a largura máxima da página */
+  margin: 0 auto; /* Centraliza o cabeçalho */
 }
 
 header h1 {
@@ -42,15 +45,15 @@ nav ul li a {
   font-weight: bold;
 }
 
-/* Layout principal */
+/* Layout principal - .container agora tem a mesma largura do cabeçalho */
 .container {
   display: flex;
   gap: 40px;
   align-items: flex-start;
   flex-wrap: wrap;
-  margin: 20px auto; /* Espaçamento interno da página */
+  margin: 20px auto;
   width: 90%;
-  max-width: 1200px; /* Limita a largura máxima da página */
+  max-width: 1200px; /* Mantém o mesmo tamanho máximo do cabeçalho */
 }
 
 /* Estilo da área de texto */
