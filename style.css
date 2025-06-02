@@ -63,6 +63,7 @@ nav ul li a {
 /* Imagem */
 .image {
   flex: 1; /* A imagem ocupa o espaço disponível */
+  display: flex;
   justify-content: center;
 }
 
