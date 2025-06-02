@@ -57,16 +57,13 @@ nav ul li a {
 
 /* Estilo da área de texto */
 .text {
-  flex: 1 1 60%;  /* O texto ocupa 60% do espaço disponível */
+  display: 60%;  /* O texto ocupa 60% do espaço disponível */
   padding-right: 20px; /* Espaçamento à direita para evitar que o texto fique muito próximo da imagem */
 }
 
 /* Estilo da área da imagem */
 .image {
-  flex: 1 1 40%;  /* A imagem ocupa 40% do espaço disponível */
-  display: flex;
-  justify-content: center; /* Centraliza a imagem */
-}
+  display: 40%;  
 
 .image img {
   max-width: 40%;  /* A imagem ocupa 100% da largura disponível */
