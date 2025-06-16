@@ -60,11 +60,6 @@ nav ul li a {
   padding-right: 20px; /* Espaçamento à direita */
 }
 
-/* Espaçamento entre os parágrafos */
-.p {
-  margin-bottom: 50px; /* Adiciona um pequeno espaço entre os parágrafos */
-}
-
 /* Imagem */
 .image {
   flex: 1; /* A imagem ocupa o espaço disponível */
